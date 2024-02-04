@@ -18,42 +18,57 @@ This Django web application provides weather forecasting based on the OpenWeathe
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/your-username/weather-forecast-app.git
-  ```
-Change into the project directory:
+```bash
+git clone https://github.com/SHIV000000/ForecastForge.git
+```
+### Change into the project directory:
 
- ```bash
+```bash
 cd weather forecast
-  ```
+```
+
 ### Create and activate a virtual environment:
 
- ```bash
-python -m venv venv
+# On Macos\Linux:
+```bash
+python3 -m venv venv
+ ```
+```bash
 source venv/bin/activate
-  ```
-# On Windows: venv\Scripts\activate
-Install the required dependencies:
+```
+# On Windows:
+```bash
+py -m venv venv
+```
+
+```bash
+venv\Scripts\activate
+```
+
+## Install the required dependencies:
 
  ```bash
 pip install -r requirements.txt
-  ```
-Configure API Key:
+```
+
+### Configure API Key:
 
 Get your OpenWeatherMap API key from OpenWeatherMap.
 Update the API_KEY in the credentials.py file.
 
 ### Run migrations:
 
- ```bash
+```bash
 python manage.py makemigration
 python manage.py migrate
-  ```
+```
+
 ### Run the development server:
 
- ```bash
+```bash
 python manage.py runserver
-  ```
+```
+
 Open your browser and visit http://127.0.0.1:8000/ to access the application.
 
 ###Configuration
@@ -68,19 +83,20 @@ Fork the repository.
 
 Create a new branch for your feature or bug fix:
 
- ```bash
+```bash
 git checkout -b feature-name
-  ```
-Commit your changes:
+```
+### Commit your changes:
 
- ```bash
+```bash
 git commit -m 'Add new feature'
-  ```
-Push to the branch:
+```
 
- ```bash
+###Push to the branch:
+
+```bash
 git push origin feature-name
-  ```
+```
 Submit a pull request.
 
 License
