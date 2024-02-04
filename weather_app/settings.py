@@ -8,7 +8,7 @@ SECRET_KEY = 'q=u31y-b!oudbl$z+zjzi0^_pq=s0bpy=e6s9-aw-9xxu!)+ec'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
