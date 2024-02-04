@@ -2,13 +2,19 @@
   "functions": {
     "api/**/*.py": {
       "runtime": "python3.9",
-      "includeFiles": ["requirements.txt"]
+      "includeFiles": ["requirements.txt"],
+      "dependencies": {
+        "decouple": "latest"
+      }
     }
   },
   "builds": [{
     "src": "weather_app/wsgi.py",
     "use": "@vercel/python",
-    "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+    "config": {
+      "maxLambdaSize": "15mb",
+      "runtime": "python3.9"
+    }
   }],
   "routes": [
     {
@@ -17,4 +23,3 @@
     }
   ]
 }
-
