@@ -24,7 +24,7 @@ git clone https://github.com/SHIV000000/ForecastForge.git
 ### Change into the project directory:
 
 ```bash
-cd weather forecast
+cd ForecastForge
 ```
 
 ### Create and activate a virtual environment:
