@@ -29,16 +29,17 @@ cd ForecastForge
 
 ### Create a virtual environment:
 
-# On Macos\Linux:
+## On Macos\Linux:
 ```bash
 python3 -m venv venv
  ```
-# On Windows:
+## On Windows:
 ```bash
 py -m venv venv
 ```
 ### Activate  virtual environment:
-# On Macos\Linux:
+
+## On Macos\Linux:
 ```bash
 source venv/bin/activate
 ```
