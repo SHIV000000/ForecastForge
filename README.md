@@ -21,30 +21,30 @@ ForecastForge: Your weather companion crafting precision forecasts. With real-ti
 ```bash
 git clone https://github.com/SHIV000000/ForecastForge.git
 ```
-### Change into the project directory:
+## Change into the project directory:
 
 ```bash
 cd ForecastForge
 ```
 
-### Create a virtual environment:
+## Create a virtual environment:
 
-## On Macos\Linux:
+### On Macos\Linux:
 ```bash
 python3 -m venv venv
  ```
-## On Windows:
+### On Windows:
 ```bash
 py -m venv venv
 ```
-### Activate  virtual environment:
+## Activate  virtual environment:
 
-## On Macos\Linux:
+### On Macos\Linux:
 ```bash
 source venv/bin/activate
 ```
 
-# On Windows:
+### On Windows:
 ```bash
 venv\Scripts\activate
 ```
@@ -56,7 +56,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Configure API Key:
+## Configure API Key:
 
 Get your OpenWeatherMap API key from OpenWeatherMap.
 Update the API_KEY in the credentials.py file.
