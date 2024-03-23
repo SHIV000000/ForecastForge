@@ -1,22 +1,13 @@
 # ForecastForge
-ForecastForge: Your weather companion crafting precision forecasts. With real-time updates, interactive maps, and personalized history, navigate meteorological insights effortlessly. Experience weather, redefined
-
-# Weather Forecasting Django WebApp
+ForecastForge: Your weather companion crafting precision forecasts. With real-time updates, interactive maps, and personalized history, navigate meteorological insights effortlessly.
 
 ## Overview
-
 #### This Django web application provides weather forecasting based on the OpenWeatherMap API. Users can search for weather information for a specific location and view a 7-day weather forecast.
 
-## Features
-
-- Current weather information
-- 7-day weather forecast
-- Dynamic background color based on weather conditions
-- Responsive design for different devices
 
 ## Installation
 
-1. **Clone the repository:**
+## Clone the repository
 
 ```bash
 git clone https://github.com/SHIV000000/ForecastForge.git
