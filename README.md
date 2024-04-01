@@ -65,15 +65,15 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-Open your browser and visit [[http://127.0.0.1:8000/ to access the application.
+Open your browser and visit [[http://127.0.0.1:8000/]] to access the application.
 
-Configuration
+## Configuration
 
-Update the SECRET_KEY in settings.py with your Django project secret key.
-Adjust other settings in settings.py as needed.
+*** Update the SECRET_KEY in settings.py with your Django project secret key. ***
+*** Adjust other settings in settings.py as needed. ***
 
-##Contributing
-#### If you'd like to contribute to this project, please follow these steps:
+## Contributing
+*** If you'd like to contribute to this project, please follow these steps: ***
 
 ## Fork the repository.
 
