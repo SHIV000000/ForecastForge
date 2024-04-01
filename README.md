@@ -2,49 +2,48 @@
 ForecastForge: Your weather companion crafting precision forecasts. With real-time updates, interactive maps, and personalized history, navigate meteorological insights effortlessly.This Django web application provides weather forecasting based on the OpenWeatherMap API. Users can search for weather information for a specific location and view a 7-day weather forecast.
 
 
-## Installation
+## INSTALLATION 
 
-## Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/SHIV000000/ForecastForge.git
 ```
-## Change into the project directory:
+### Change into the project directory:
 
 ```bash
 cd ForecastForge
 ```
 
-## Create a virtual environment:
+### Create a virtual environment:
 
-### On Macos\Linux:
+#### On Macos\Linux:
 ```bash
 python3 -m venv venv
  ```
-### On Windows:
+#### On Windows:
 ```bash
 py -m venv venv
 ```
-## Activate  virtual environment:
+### Activate  virtual environment:
 
-### On Macos\Linux:
+#### On Macos\Linux:
 ```bash
 source venv/bin/activate
 ```
 
-### On Windows:
+#### On Windows:
 ```bash
 venv\Scripts\activate
 ```
 
-
-## Install the required dependencies:
+### Install the required dependencies:
 
  ```bash
 pip install -r requirements.txt
 ```
 
-## Configure API Key:
+### Configure API Key:
 
 Get your OpenWeatherMap API key from OpenWeatherMap.
 Update the API_KEY in the credentials.py file.
