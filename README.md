@@ -65,35 +65,26 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-Open your browser and visit http://127.0.0.1:8000/ to access the application.
+Open your browser and visit [[http://127.0.0.1:8000/ to access the application.
 
 Configuration
 
 Update the SECRET_KEY in settings.py with your Django project secret key.
 Adjust other settings in settings.py as needed.
 
-Contributing
-If you'd like to contribute to this project, please follow these steps:
+##Contributing
+#### If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
+## Fork the repository.
 
-Create a new branch for your feature or bug fix:
+### Create a new branch for your feature or bug fix:
 
 ```bash
 git checkout -b feature-name
+
+git commit -m 'Add new feature' ### Commit your changes
+
+git push origin feature-name ###Push to the branch
 ```
-### Commit your changes:
+### Submit a pull request.
 
-```bash
-git commit -m 'Add new feature'
-```
-
-###Push to the branch:
-
-```bash
-git push origin feature-name
-```
-Submit a pull request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
