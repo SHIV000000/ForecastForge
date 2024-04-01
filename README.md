@@ -61,7 +61,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-Open your browser and visit [[http://127.0.0.1:8000/]] to access the application.
+Open your browser and visit http://127.0.0.1:8000/ to access the application.
 
 ## Configuration
 
